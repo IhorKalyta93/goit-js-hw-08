@@ -19,6 +19,7 @@ function createGalleryMarkup() {
     </a>`;
     })
     .join('');
+  
 }
 const galleryLighBox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
