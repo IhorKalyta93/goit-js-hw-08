@@ -13,7 +13,6 @@ function onSubmit(event) {
   if (formEl.elements.email.value && formEl.elements.message.value) {
     event.currentTarget.reset();
     localStorage.removeItem(STORAGE_KEY);
-    // оставь вывод
     console.log(formData);
   }
 }

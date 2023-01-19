@@ -9,7 +9,7 @@ const onPlayerPlayTime = throttle(({ seconds }) => {
   localStorage.setItem('videoplayer-current-time', seconds);
 }, 1000);
 
-// setItem(key, value) - створює новий, або оновлює вже існуючий запис у сховищі.
+
 
 player.on('timeupdate', onPlayerPlayTime);
 

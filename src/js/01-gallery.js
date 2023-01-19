@@ -23,8 +23,7 @@ function createGalleryMarkup() {
 const galleryLighBox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
-  //   overlayOpacity: 1,
-  //   maxZoom: 2,
+
 });
 
 galleryLighBox.show();
